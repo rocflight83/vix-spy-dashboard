@@ -1,0 +1,36 @@
+# Environment files
+.env
+.env.local
+
+# Database  
+*.db
+test.db
+
+# Logs
+*.log
+app.log
+
+# Python cache
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.Python
+
+# Virtual environments
+.venv/
+venv/
+env/
+
+# Node modules (if deploying frontend)
+node_modules/
+.next/
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Build artifacts
+dist/
+build/
+*.egg-info/
