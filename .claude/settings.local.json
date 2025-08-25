@@ -16,7 +16,12 @@
       "Bash(git remote add:*)",
       "Bash(git push:*)",
       "Bash(git remote remove:*)",
-      "Bash(git pull:*)"
+      "Bash(git pull:*)",
+      "Bash(railway --version)",
+      "Bash(add_railway_vars.bat)",
+      "Bash(railway variables set:*)",
+      "Bash(railway variables:*)",
+      "Bash(railway login:*)"
     ],
     "deny": [],
     "ask": []
