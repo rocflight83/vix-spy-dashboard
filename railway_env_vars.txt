@@ -1,0 +1,42 @@
+# Copy these environment variables to Railway
+# Go to your Railway project -> Variables tab -> Add each one
+
+# TradeStation API (use your actual values)
+TRADESTATION_CLIENT_ID=o4haO6Ax6ZkXwwVJC62bI4rBxfzzgaOM
+TRADESTATION_CLIENT_SECRET=it2Rp_nXMkM1bprXqwtbDYJ2awlbzPaX5SsKpq2hrV23agKWdVOSw19kYuJa56ab
+TRADESTATION_REFRESH_TOKEN=ffd3jdaM8n_VNrWyWL8qhl2s1lGT12yF-xgdSgCTJRS7n
+
+# Account Configuration
+TRADESTATION_SIM_ACCOUNT=SIM2818191M
+TRADESTATION_LIVE_ACCOUNT=11804432
+
+# Supabase Configuration (use your actual values)
+SUPABASE_URL=https://zivoyngpshcudxyjygjp.supabase.co
+SUPABASE_ANON_KEY=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6Inppdm95bmdwc2hjdWR4eWp5Z2pwIiwicm9sZSI6ImFub24iLCJpYXQiOjE3NTU1OTI3NTksImV4cCI6MjA3MTE2ODc1OX0.cRGcEDX7RcHu-xHI_H9m1F9doW84jcE2snwoipTIccw
+SUPABASE_SERVICE_ROLE_KEY=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6Inppdm95bmdwc2hjdWR4eWp5Z2pwIiwicm9sZSI6InNlcnZpY2Vfcm9sZSIsImlhdCI6MTc1NTU5Mjc1OSwiZXhwIjoyMDcxMTY4NzU5fQ.d5-KyDkVH2vAppYjoGrQEQfrBZLnFc6e8Gvg3ULLxsg
+DATABASE_URL=postgresql://postgres:vixsup%402025@db.zivoyngpshcudxyjygjp.supabase.co:5432/postgres
+
+# Trading Strategy Configuration - START WITH THESE SAFE VALUES
+STRATEGY_ENABLED=false
+USE_LIVE_ACCOUNT=false
+
+# Strategy Parameters (your original values)
+VIX_SYMBOL=^VIX
+UNDERLYING_SYMBOL=SPY
+DELTA_TARGET=0.3
+WING_WIDTH=10
+TAKE_PROFIT_PERCENTAGE=0.25
+
+# Scheduling (US/Eastern times - your original timing)
+ENTRY_SCHEDULE_HOUR=9
+ENTRY_SCHEDULE_MINUTE=32
+EXIT_SCHEDULE_HOUR=11
+EXIT_SCHEDULE_MINUTE=30
+
+# Railway-specific
+PORT=8000
+API_HOST=0.0.0.0
+
+# Logging
+LOG_LEVEL=INFO
+LOG_FILE=app.log
